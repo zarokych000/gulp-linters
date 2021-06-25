@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "airbnb-base", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "eol-last": ["warn", "never"],
+        "no-console": "warn",
+        "indent": ["error", 4],
+        "no-plusplus": ["error", {"allowForLoopAfterthoughts": true }]
+    }
+}

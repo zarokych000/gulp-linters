@@ -1,0 +1,12 @@
+.sprite {
+    width: 25px;
+    height: 25px;
+}
+
+.sprite--search {
+    fill: #eee;
+
+    &:hover {
+        fill: darken($color: #eee, $amount: 10%);
+    }
+}
